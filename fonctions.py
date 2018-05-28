@@ -32,7 +32,7 @@ def sti(b):#sti= string to int , fonction qui transforme une chaine sous la form
     else:
         return 0
 
-def test_sti(b):
+def test_sti(b):#fonction qui test la combinaison de modifications sur le nim
     i=0
     if len(b)==3:
         try:
@@ -70,7 +70,7 @@ def test_sti(b):
     if i==2 or i==3:
         return True
 
-def valid(k,NT,LT):
+def valid(k,NT,LT):#apres verifications de la syntaxe de la combinaison cette fonction test si les valeurs sont réelles ou pas
     if k==0:
         a=True
         print("\t\t Commande Inconnu !!! \n")
@@ -107,7 +107,7 @@ def valid(k,NT,LT):
                     a=False
     return k
 
-def hall_of_fame():
+def hall_of_fame():#fonction qui affiche le top 10 des meilleurs joueurs
     import pickle
     f=open('Scores','rb')
     names=pickle.load(f)
@@ -122,7 +122,7 @@ def hall_of_fame():
         print("-------------->",i+1,") (empty)")
         i=i+1
 
-def add_player(p,s):
+def add_player(p,s):#cette fonction permet d'ajouter un joueur et un score dans un fichier deja existant  , si le fichier n'existe pas elle va crée le fichier
     import pickle
     try:
         with open('Scores'):pass
