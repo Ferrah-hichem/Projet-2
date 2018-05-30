@@ -13,7 +13,7 @@ Le 2ème projets comporte deux defis mathématiques (carré parfait + nombre de 
   Structure:  
     --->main.py=le fichier principal du jeu de NIM  
     --->fonctions.py=fichier de support pour le jeu de NIM conetenant plusieurs fonctions pour ne pas encombrer le fichier principal.    
-    --->carré parfait.ipynb=feuille de calcul jupyter contenant l'exercice à propos du carré parfait. 
+    --->carré parfait.ipynb=feuille de calcul jupyter contenant l'exercice à propos du carré parfait.     
     --->minprod.ipynb=feuille de calcul contenant le deuxième exercice     
 
   
